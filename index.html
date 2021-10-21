@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identifícate</title>
+</head>
+
+<body class="login">
+<header class="login__header">
+    <h1 class="login__header__title">Identifícate en Movistar Energía</h1>
+</header>
+
+<form method="GET" action="movistar-energia://auth" id="loginForm">
+    <input type="text" value="7ZGTbs" id="txt-code" name="code" />
+    <input type="hidden" name="state" value="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzM4NCJ9.eyJYLURldmljZS1JRCI6IjU5NjQ3Njc2NDQ3MDM5NzY3OTZEMzA2QzQxNzE0RDMzNEY2QzY4NTM3Nzc4NDU1MDUxMzg2NjQ1NEU3NjRENjY3NjQ1MzE2RjY5NDk0QTY1NjQ2MjUxM0QiLCJleHAiOjE2MjY0MzQ0NjUsImp0aSI6IjQ1Nj" />
+    <button id="btn-ingresar" type="submit">
+        <span>Acceder</span>
+    </button>
+</form>
+
+<form method="GET" action="movistar-energia://auth" id="loginForm">
+    <input type="text" value="server_error" id="txt-error" name="error" />
+    <input type="hidden" name="error_description" value="The%20user%20with%20user_id%2075e89d19-616f-4ddf-9a61-9e2d55c2102%20is%20not%20valid.&state=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzM4NCJ9.eyJYLURldmljZS1JRCI6IjcwNzE1MzM1NjIyRjUxMzc1MTU1Nzk1MDYzNzkzMjY0NjgzNTc0MzQ3MDZGNDM1NDQ2NEIzNjJCMkY2QTVBNTEzMzc0Nzg2RTY5NzM3QTQxMzEzMTU5M0QiLCJleHAiOjE2MjY3MDQwMTksImp0aSI6IjZBNTE0RTU4NzczNDU5NkY1NTY0MzgzMjZCMkY2RjM3MkI3OTRGNzE1NTQ4NEI0NzQ5NTc0NjUwNTI2MzcxNjI1MDcwNEI0NDcwNjc1MjRBNzg3ODM0NEM2MzZENTE1MDRGNzc2QTU5NjY0NTZENkM3NDU5NEI3MjMyNTI0MzREIn0.mj3qitL7ek3iReg-UyKUi6C5KkxSc6rgLVYg_eQj7rE61Gb60N_Ae6QMb3OOYDDr" />
+    <button id="btn-error" type="submit">
+        <span>Error</span>
+    </button>
+</form>
+<a href="movistar-energia://auth?code=ANYCODE">Login (custom tabs)</a>
+</body>
+</html>
